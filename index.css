@@ -1,0 +1,54 @@
+gidiv.head {
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 5px;
+  margin-left: 2cm;
+  position: flex;
+  border-radius: 10% 60% 40% 100%;
+  background-image: url(/pexels-magda-ehlers-3575827.jpg);
+  color: rgb(39, 133, 10);
+  text-shadow: 2px 2px 8px #8a6161;
+  width: fit-content;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+div.setup-login {
+  position: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: right;
+}
+
+.setup-login .login-form {
+  background-color: rgb(241, 241, 213);
+  border-radius: 10% 20% 30% 80%;
+  box-shadow: 10px 12px 0 0 rgb(54, 49, 49);
+  position: relative;
+  left: 25cm;
+  width: 7cm;
+  height: 8cm;
+  padding: 25px 45px 45px 45px;
+}
+
+.setup-login .login-form h3 {
+  text-align: center;
+}
+
+.setup-login input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  transform: translateY(-50%);
+}
+
+button.login-submit {
+  padding: 10px 20px;
+  width: 4cm;
+  position: relative;
+  right: -2.5cm;
+}
